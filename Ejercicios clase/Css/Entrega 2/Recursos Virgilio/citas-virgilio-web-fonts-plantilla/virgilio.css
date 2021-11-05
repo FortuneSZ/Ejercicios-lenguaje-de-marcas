@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+@font-face{
+	font-family: 'Lobster', cursive;
+	src: url(fonts/Lobster/Lobster-Regular.ttf);
+h1{
+	font-family: 'Ribeye Marrow', cursive;
+}	
+
