@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+
+@font-face{
+	font-family: 'Lobster';
+	src: url(Lobster-Regular.ttf);
+}
+h1{
+	font-family: 'Ribeye Marrow', cursive;
+	font-size: 3em;
+	letter-spacing: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+}	
+
+p.intro {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: Arial, Verdana, Arial-Black,sans-serif;
+  text-align: justify;
+  line-height: 200%;
+
+}
+
+body{
+	font-size:medium;
+	margin-left:15%;
+	margin-right:15%;
+	/*empleando el color rgb */
+	background-color:rgb(203, 172, 77);
+	/*empleando el color en formato hexadecimal*/
+	background-color:#cbac4d;
+	/* empleando el color en formato hsl */
+	background-color:hsl(45, 55%, 55%);
+	/*empleando el color de forma porcentual */
+	background-color:rgb(80%, 67%, 30%);
+	/*empleando el color rgb con cierta opacidad */
+	background-color:rgba(203, 172, 77, 0.99);
+	/* empleando el color en formato hsl con cierta opacidad */
+	background-color:hsla(45, 55%, 55%, 0.99);
+}
+
+.castellano{
+	color: white;
+	font-size: 3.5em;
+	font-family: "Just Another Hand", Sans-serif;
+	text-align: right;
+	border-color: red;
+	border-width: 1px;
+	border-style:solid;
+	letter-spacing: 1px;
+}
+
+strong{
+	font-size:2rem;
+}
+
+.latin{
+	font-size: 2.5em;
+	font-family: 'Lobster', cursive;
+}
+
+q{
+	text-decoration: underline;
+}
+
+#name{
+	font-size:1em;
+}
+
+#big{
+		font-size:2em;
+}
+
+mark{
+	background-color: red;
+}
+
+p[class=intro] + p > mark{
+	background-color: green;
+}
