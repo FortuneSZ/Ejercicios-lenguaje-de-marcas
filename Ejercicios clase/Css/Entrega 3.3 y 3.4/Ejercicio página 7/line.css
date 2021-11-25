@@ -1,0 +1,18 @@
+h1{
+	color:red;
+}
+#prim{
+		line-height:200%;
+		color:black;
+	}
+#second{
+		line-height:0.5em;
+		color:black;
+	}
+#terc{
+		line-height:20px;
+		color:black;
+	}
+body{
+		line-height:1,6em;
+	}

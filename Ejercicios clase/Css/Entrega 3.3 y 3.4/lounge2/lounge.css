@@ -27,15 +27,15 @@ h2{
 		line-height: 1.9em;
 		font-style: italic;
 		color: #444444;
-		font-family: Georgia, “Times New Roman”, Times, sans-sherif;
-		Background-position:left;
+		font-family: : Georgia, “Times New Roman”, Times, sans-sherif;
+		Background-position: top-left;
 
 }
 @media screen and (max-width: 480px) {
 	#garantia{
 		background-color:white;
 		background-image:none;
-		padding:0px;
+		padding:none;
 		border-color:green;
 	}
 }
@@ -52,8 +52,6 @@ h2{
 	background: white url(images/cocktail.gif) repeat-x;
 	
 	line-height:1;
-	
-	
 	
 }
 

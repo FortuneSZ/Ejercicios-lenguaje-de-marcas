@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="lounge-smartphone.css"
+media="screen and (max-width: 480px)">
+
+<link rel="stylesheet" href="lounge-tablet-portrait.css" media="screen and (max-width: 1024px) and (orientation:portrait)">
+
+<link rel="stylesheet" href="lounge-tablet-landscape.css" media="screen and (max-width: 1024px) and (orientation:landscape)">
+
+<link rel="stylesheet" href="lounge-pc.css"
+media="screen and (max-width: 1280px)">
+
+<link rel="stylesheet" href="lounge-tv.css"
+media="screen and (max-width: 2650px)">
